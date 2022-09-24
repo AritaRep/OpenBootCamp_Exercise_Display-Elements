@@ -1,0 +1,15 @@
+.galery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.galery-img {
+    width: 300px;
+    height: 300px;
+}
+
+.galery-img:hover {
+    opacity: 0.3;
+    cursor: pointer;
+}
